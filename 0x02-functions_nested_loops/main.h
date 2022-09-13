@@ -1,8 +1,8 @@
-#ifndef ALX_H
-#define ALX_H
+#ifndef MAIN_H
+#define MAIN_H
 
 /*
- * File: alx.h
+ * File: main.h
  *
  * Auth: Ofofonono Okpoho
  * Desc: Header file containing declarations for all functions
