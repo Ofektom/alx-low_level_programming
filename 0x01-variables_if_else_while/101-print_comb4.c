@@ -1,28 +1,28 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
  * main - Entry point
- *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-int d, e, f;
+int d, p, q;
 
 for (d = '0'; d < '9'; d++)
 {
-	for (e = d + '0'; e <= 9; e++)
+	for (p = d + 1; p <= '9'; p++)
 	{
-		for (f = e + '0'; f <= 9; f++)
+		for (q = p + 1; q <= '9'; q++)
 		{
-			if ((d != e) != f)
+			if ((p != d) != q)
 			{
 				putchar(d);
-				putchar(e);
-				putchar(f);
-				if (d == '7' && e == '8')
+				putchar(p);
+				putchar(q);
+				if (d == '7' && p == '8')
 					continue;
 				putchar(',');
 				putchar(' ');
