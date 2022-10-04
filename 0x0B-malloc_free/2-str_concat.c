@@ -4,7 +4,7 @@
 /**
  * str_concat - Concatenates teo strings
  * @s1: first input string
- * @S2: second input string
+ * @s2: second input string
  *
  * Return: pointer string, otherwise NULL
  */
