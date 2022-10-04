@@ -16,7 +16,7 @@ int i = 0, lens1 = 0, lens2 = 0;
 starts1 = s1;
 starts2 = s2;
 if (s1 == NULL)
-s1 = "";
+	s1 = "";
 while (*s1)
 {
 	lens1++;
