@@ -6,10 +6,11 @@
  * print_grid - prints a grid of integers
  *
  * @grid: the address of the two dimensional grid
- * @width: width of the grid
+** @width: width of the grid
  * @height: height of the grid
  *
  * Return: Nothing.
+ *
  */
 void print_grid(int **grid, int width, int height)
 {
@@ -27,7 +28,7 @@ while (h < height)
 	}
 	printf("\n");
 	h++;
-}
+}   
 }
 /**
  * main - check the code for ALX School students.
@@ -47,6 +48,6 @@ printf("\n");
 grid[0][3] = 98;
 grid[3][4] = 402;
 print_grid(grid, 6, 4);
-free(grid);
+free_grid(grid, 4);
 return (0);
 }
